@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: black;
+    height: 100vh;
+    width: 181px;
+    position: fixed;
+}
+
+#nike {
+    margin-top: 60px;
+    margin-left: 226.85px;
+}
+
+#sun {
+    float: right;
+    margin-top: 58px;
+    margin-right: 37px;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 62.61px;
+    margin-left: calc(50% - 37.57px/2 - 2.72px);
+    margin-top: 162.47px;
+}
+
+#media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 31.31px;
+    margin-top: 256px;
+    margin-bottom: 107.56px;
+}
+
+#cat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 8px;
+    width: 457.37px;
+    height: 59px;
+    margin-top: 73.21px;
+    margin-left: 227px;
+    background: rgba(236, 237, 237, 0.5);
+    border-radius: 18.2788px;
+    font-family: 'Circular Std', sans-serif;
+    font-size: 30.4646px;
+}
+
+#cat img {
+    margin: 0 15px;
+}
+
+#shoe {
+    margin-left: 227px;
+    margin-top: 33.91px;
+}
+
+#diapo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 83.98px;
+    margin-left: 227px;
+    width: 497.15px;
+    height: 99.91px;
+    }
+
+#diapo img{
+    margin: 0 15px;
+}
+
+.taille {
+    width: 110.21px;
+    height: 99.91px;
+    background: rgba(166, 165, 165, 0.3);
+    border-radius: 15.6103px;
+}
+
+.chaussure {
+    width: 110.21px;
+    height: 99.91px;
+    background: rgba(166, 165, 165, 0.3);
+    border-radius: 15.6103px;
+    }
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1058px;
+    right: 56px;
+    top: 230px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 62.3578px;
+    margin-bottom: 45px;
+}
+
+main p {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 27.7146px;
+    padding-top: 6px;
+}
+
+#stars {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 45px;
+}
+
+#stars img {
+    margin: 0 2.57px;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38.1076px;
+    margin-bottom: 45px;
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.coeur, .cart{
+    margin: 0 20px;
+    margin-bottom: 60px;
+}
+
+
+#infos h2 {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#infos p{
+    margin-bottom: 31.5px;
+    font-family: 'Circular Std', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    width: 614px;
+    height: 112px;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.flex img {
+    width: 41.57px;
+    height: 41.57px;
+}
+
+#details {
+    font-family: 'Circular Std';
+font-weight: 500;
+font-size: 24.3455px;
+line-height: 31px;
+
+
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+}
+
+#details img {
+    margin-left: 10px;
+}
+
+
+.none {
+    display: none;
+}
+
+@media screen and (max-width: 429px) {
+    header, #nike, #sun, #diapo, #cat, #details {
+        display: none;
+    }
+
+    #infos p, h2 {
+        display: none;
+    }
+
+    #shoe {
+        display: none;
+    }
+
+    h1 {
+        font-family: 'Arvo',serif;
+        font-style: bold;
+        font-weight: 700;
+        font-size: 32px;
+        margin-top: 55px;
+        }
+
+    main {
+        position: initial;
+    }
+
+    section p {
+        font-family: 'Circular Std', sans-serif;
+        font-style: bold;
+        font-weight: 450;
+        font-size: 27.7146px;
+    }
+
+    .none {
+        display: block;
+        width: 423.78px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .flex img{
+        margin-left: 8.66px;
+    }
+
+
+    .coeur {
+        display: flex;
+        position: absolute;
+        width: 220.64px;
+        height: 69.29px;
+        left: -33px;
+        top: 751px;
+        margin-left: 20;
+    }
+
+    .cart {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 856px;
+        margin: auto;
+    }
+}
